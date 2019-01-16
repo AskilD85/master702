@@ -10,21 +10,7 @@ class IndexController extends Controller {
 		$this->view = new View();
 	}
         
-        public function Services2(){
-            if(!empty($_GET['id'])){
-                echo 'пришла ID=ка - POST'.$_POST['id'];
-                echo '<br / >пришла ID=ка GET'.$_GET['id'];
-                $id = $_GET['id'];
-                echo '$id='.$id;
-                $masters = $this->model->getMasterById($id);
-                echo $masters;
-                return true;
-            }else{
-                echo "что то не так";
-            }
-            
-        }
-
+       
 	public function index() {
 		$this->pageData['title'] = "МойМастер";
                 
@@ -38,9 +24,13 @@ class IndexController extends Controller {
                 $this->view->render($this->pageTpl, $this->pageData);
 	}
         
+       public function Logout(){
+            unset($_SESSION['logged_user']);
+            header ("Location: /");
+	}
         
-       
-    }
+        
+}
 
 
 	

@@ -27,6 +27,7 @@ class LoginController extends Controller {
 		if(!$this->model->checkUser()) {
 			return false;
 		}
+                
 	}
 
 
