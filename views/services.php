@@ -1,5 +1,8 @@
 <?php 
 
+echo '<h2>'.$pageData['service']['name'].'</h2>';
+
+
 foreach ($pageData['masterByProf'] as $key => $value){ ?>
 <div class="master-content">
     <p>Имя:&nbsp&nbsp<?php echo $value['name'] ?></p>
@@ -8,7 +11,3 @@ foreach ($pageData['masterByProf'] as $key => $value){ ?>
     
 </div> 
  <?php } ?>
-    
-
-
-
