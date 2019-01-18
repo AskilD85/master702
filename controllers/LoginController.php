@@ -15,7 +15,7 @@ class LoginController extends Controller {
 		$this->pageData['title'] = "Вход в личный кабинет";
 		if(!empty($_POST)) {
 			if(!$this->login()) {
-				$this->pageData['error'] = "Неправильный логин или пароль";
+                            $this->pageData['error'] = "Неправильный логин или пароль";
 			}
 		}
 

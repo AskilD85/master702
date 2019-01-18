@@ -11,6 +11,8 @@ define("UPLOAD_DIR", ROOT. "/uploads/");
 require_once "db.php";//база данных подключение]
 require_once("route.php"); //роуты подключаем
 
+
+
 require_once MODEL_PATH.'model.php';
 require_once VIEW_PATH. 'View.php';
 require_once CONTROLLER_PATH. 'Controller.php';

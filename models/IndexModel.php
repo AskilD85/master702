@@ -34,6 +34,23 @@ class IndexModel extends Model {
         $result = $stmt->fetch(PDO::FETCH_ASSOC);
         return $result;
     }
+    
+    public function updateUserInfo($id, $name, $tel, $email) {
+        
+                $name = $_GET['editName'];
+                $email = $_GET['editEmail'];
+                $tel = $_GET['editTel'];
+                $id = $_GET['id'];
+		$sql = "UPDATE specialist SET name = :name, email = :email, phone = :phone WHERE id = :id";
 
+		$stmt = $this->db->prepare($sql);
+		$stmt->bindValue(":name", $name, PDO::PARAM_STR); //параметр >bindValue задает login как строковый тип
+		$stmt->bindValue(":email", $email, PDO::PARAM_STR);
+                $stmt->bindValue(":phone", $tel, PDO::PARAM_STR);
+                $stmt->bindValue(":id", $id, PDO::PARAM_INT);
+		$stmt->execute(); 
 
-}
+               
+       
+   
+}}

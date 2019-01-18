@@ -48,7 +48,7 @@ class ProductsController extends Controller {
         }
     public function getProduct(){
         
-if(!$_SESSION['user']){
+    if(!$_SESSION['user']){
             header("Location: /");
             return;
         }
@@ -67,5 +67,5 @@ if(!$_SESSION['user']){
      }
         
             
-            
+        
 }

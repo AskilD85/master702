@@ -2,6 +2,7 @@ html, body {
     height: 100%;
         
 }
+ 
 /*div {
     border: 1px red solid;
 }*/
@@ -19,8 +20,9 @@ body{
 }
 .line{
     background-color: #e1e4fb;
-    height: 10px;
-    width: 100%;
+    height: 35px;
+    
+    min-width: 100px;
 }
 .wrapper {
   display: flex;
@@ -37,11 +39,25 @@ body{
 .data-content{
     padding-right: 35px;
 }
-
+.a-enter-in-auth{
+    text-align: center;
+}
 .master-content{
     background: #dae0eb;
     margin: 10px;
     padding: 20px;
+}
+
+.auth-div{
+    background-color: #dae0eb;
+    height: 5em;
+    line-height: 5em;
+    
+}
+
+
+.edit-form{
+    display: none;
 }
 
 
@@ -61,7 +77,10 @@ body{
 .login-form{
     margin: auto;
 }
-
+.search-form{
+    height: 5em;
+    line-height: 5em;
+}
 .auth-div{
     padding: auto;
     text-align:center;

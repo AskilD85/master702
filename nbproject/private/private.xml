@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/OSPanel/domains/localhost/models/model.php</file>
+            <file>file:/D:/OSPanel/domains/localhost/models/IndexModel.php</file>
+            <file>file:/D:/OSPanel/domains/localhost/views/main.php</file>
+            <file>file:/D:/OSPanel/domains/localhost/conf/config.php</file>
+            <file>file:/D:/OSPanel/domains/localhost/js/ajax.js</file>
+            <file>file:/D:/OSPanel/domains/localhost/models/LoginModel.php</file>
+            <file>file:/D:/OSPanel/domains/localhost/css/style.css</file>
+            <file>file:/D:/OSPanel/domains/localhost/views/services.php</file>
+            <file>file:/D:/OSPanel/domains/localhost/views/template/footer.php</file>
+            <file>file:/D:/OSPanel/domains/localhost/conf/route.php</file>
+            <file>file:/D:/OSPanel/domains/localhost/controllers/IndexController.php</file>
+            <file>file:/D:/OSPanel/domains/localhost/controllers/Controller.php</file>
+            <file>file:/D:/OSPanel/domains/localhost/conf/db.php</file>
+            <file>file:/D:/OSPanel/domains/localhost/views/template/header.php</file>
+            <file>file:/D:/OSPanel/domains/localhost/controllers/LoginController.php</file>
+            <file>file:/D:/OSPanel/domains/localhost/views/register.php</file>
+        </group>
+    </open-files>
+</project-private>

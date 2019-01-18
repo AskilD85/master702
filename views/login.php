@@ -16,6 +16,7 @@
                 <input type="password" name="password" id="password" class="form-control" placeholder="Пароль" required>
                 <button class="btn btn-lg btn-primary btn-block" type="submit">Войти</button>
                 </form>
+                <div class="a-enter-in-auth"><a href="/register" >Регистрация</a></div>
             </div>
         </div>
     </div>

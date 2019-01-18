@@ -2,7 +2,7 @@
 
 
  <div class="footer">
-    <div class="container margin-0">
+    <div class="container margin-0 container-fluid">
         <div class="row">
         <div class="col-md-3">
             <span>&copy; 2010-2019 &laquo;Мой мастер&raquo; &mdash; ремонт домов,квартир<br />
@@ -18,6 +18,8 @@
         </div>
         <div class="col-md-3">
             <span>Создание сайтов<br /><a href="http://vk.com/id#" class="mail" target="_blank">Андрей Харитонов</a><br />+7 (963) 130-81-13</span>
+            <br /><i class="fa fa-envelope-o" style="color:#fff" aria-hidden="true"></i>
+<span><a href="mailto:askildar@yandex.ru">Написать письмо</a></span>
         </div>
 	
         </div>    
